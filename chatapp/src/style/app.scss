@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-aspect-ratio: 7/10) {
+    .joincointainer{ 
+       width: 100% !important;
+    }
+
+    .header> h2{
+        color: white;
+        margin: 6vw !important;
+        font-size: 5vw !important;
+      }   
+    .header> a>img{
+      margin: 6vw !important; 
+      
+    }
+
+    .header:hover >a>img{
+        transform: scale(3) !important;
+      }
+
+      .chatbox{
+    
+        height: 80% !important;
+        
+        
+    }
+
+    .inputbox{
+   
+        height: 10% !important;
+      
+    }
+
+    #inputtext{
+   
+        
+        padding: 2vmax;
+       
+        font-size: 1.2vmax;
+       
+    }
+    
+    
+    .btn{
+        background-color: rgb(203, 126, 126);
+        color: white;
+        border: none;
+        width: 25%;
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+    
+    
+}

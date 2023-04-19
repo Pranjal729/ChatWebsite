@@ -1,0 +1,62 @@
+
+
+.joinpage{
+    background-color: rgb(92, 89, 89);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    > .joincointainer{
+        
+        height: 60%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    > .joincointainer>img{
+        width: 10vmax;
+        position: relative;
+        top: 10px;
+       
+    }
+
+    >.joincointainer>h1{
+        color: white;
+        font-size: 2rem;
+        width: 30vmax;
+        //border-bottom: 0.2vmax solid white;
+        text-align: center;
+        padding: 1.5vmax;
+
+    }
+
+    >.joincointainer> #joininput{
+        width: 25vmax;
+        padding: 1.5vmax;
+        border: none;
+        outline: none;
+        font-size: 1.2vmax;
+        box-sizing: border-box;
+    }
+
+   
+}
+
+.joinbtn{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    background-color: rgb(255, 179, 0);
+    box-sizing: border-box;
+}
+
+.joinbtn:hover{
+    background-color: rgb(255, 213, 0);
+}
